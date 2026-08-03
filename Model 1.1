@@ -2,8 +2,8 @@ Plot()
  {
   Sequence()
   {
-   Boundary ("earlier Dorset Qaiqsut start");
-   Phase("Qaiqsut earlier Dorset ")
+   Boundary ("Qaiqsut Tuniit start");
+   Phase("Qaiqsut Tuniit")
    {
     R_Date("GrM-38674", 1686, 25);
     R_Date("GrM-38673", 1672, 23);
@@ -14,17 +14,17 @@ Plot()
      R_Date("GrM-38672",1589,15);
     };
    };
-   Boundary("Qaiqsut early Dorset end");
+   Boundary("Qaiqsut Tuniit end");
   };
   Sequence()
   {
-   Boundary("late Dorset start");
-   Phase("Late Dorset")
+   Boundary("later Tuniit start");
+   Phase("later Tuniit")
    {
     Sequence()
     {
-     Boundary("Avvajja Dorset start");
-     Phase("Avvajja Dorset")
+     Boundary("Avvajja later Tuniit start");
+     Phase("Avvajja later Tuniit")
      {
       R_Date("GrM-19003", 965, 21);
       R_Date("GrM-19002", 955, 21);
@@ -33,8 +33,8 @@ Plot()
     };
     Sequence()
     {
-     Boundary("Alarniq Dorset start");
-     Phase("Alarniq Dorset")
+     Boundary("Alarniq later Tuniit start");
+     Phase("Alarniq later Tuniit")
      {
       R_Date("UCIAMS-196092", 1035, 20);
       R_Date("UCIAMS-251110", 945, 15);
@@ -51,12 +51,12 @@ Plot()
       R_Date("UCIAMS-251117", 945, 15);
       R_Date("UCIAMS-251116", 700, 15);
      };
-     Boundary("Alarniq Dorset end");
+     Boundary("Alarniq later Tuniit end");
     };
     Sequence()
     {
-     Boundary("Pingiqqalik Dorset start");
-     Phase("Pingiqqalik Dorset")
+     Boundary("Pingiqqalik later Tuniit start");
+     Phase("Pingiqqalik later Tuniit")
      {
       Combine("UCIAMS-129057&UCIAMS-129064")
       {
@@ -66,12 +66,12 @@ Plot()
       R_Date("UCIAMS-129051", 930, 15);
       R_Date("UCIAMS-53039", 930, 15);
      };
-     Boundary("Pingiqqalik Dorset end");
+     Boundary("Pingiqqalik later Tuniit end");
     };
     Sequence()
     {
-     Boundary("Needle Point Dorset start");
-     Phase("Needle Point Dorset")
+     Boundary("Needle Point later Tuniit start");
+     Phase("Needle Point later Tuniit")
      {
       R_Date("UCIAMS-47686",1520,15);
       R_Date("UCIAMS-44009", 1275, 20);
@@ -88,31 +88,31 @@ Plot()
       R_Date("UCIAMS-42217", 575, 15);
       R_Date("UCIAMS-42216", 605, 15);
      };
-     Boundary("Needle Point Dorset end");
+     Boundary("Needle Point later Tuniit end");
     };
    };
-   Boundary ("Dorset end")
+   Boundary ("later Tuniit end")
    {
-    Start("Start Dorset end");
-    Transition("period of Dorset end");
-    End("End Dorset end");
+    Start("Start later Tuniit end");
+    Transition("period of later Tuniit end");
+    End("End later Tuniit end");
    };
   };
   Sequence()
   {
    After(C_Date("1000AD",1000,0));
-   Boundary ("Thule start")
+   Boundary ("Early Inuit start")
    {
-    Start("Start Thule start");
-    Transition("period of Thule start");
-    End("End Thule start");
+    Start("Start Early Inuit start");
+    Transition("period of Early Inuit start");
+    End("End Early Inuit start");
    };
    Phase("Thule")
    {
     Sequence()
     {
-     Boundary("Uglit Thule start");
-     Phase("Uglit Thule")
+     Boundary("Uglit Early Inuit start");
+     Phase("Uglit Early Inuit")
      {
       Sequence()
       {
@@ -128,12 +128,12 @@ Plot()
       };
       R_Date("GrM-24991", 271, 21);
      };
-     Boundary("Uglit Thule end");
+     Boundary("Uglit Early Inuit end");
     };
     Sequence()
     {
-     Boundary("Pingiqqalik Thule start");
-     Phase("Pingiqqalik Thule")
+     Boundary("Pingiqqalik Early Inuit start");
+     Phase("Pingiqqalik Early Inuit")
      {
       R_Date("UCIAMS-129046", 670, 15);
       Combine("UCIAMS-129045&UCIAMS-129061")
@@ -160,34 +160,34 @@ Plot()
       };
       R_Date("UCIAMS-53040", 115, 15);
      };
-     Boundary("Pingiqqalik Thule end");
+     Boundary("Pingiqqalik Early Inuit end");
     };
     Sequence()
     {
-     Boundary("Alarniq Thule start");
-     Phase("Alarniq Thule")
+     Boundary("Alarniq Early Inuit start");
+     Phase("Alarniq Early Inuit")
      {
       R_Date("UCIAMS-53035", 260, 15);
       R_Date("UCIAMS-53036", 160, 15);
       R_Date("UCIAMS-53037", 120, 15);
      };
-     Boundary("Alarniq Thule end");
+     Boundary("Alarniq Early Inuit end");
     };
     Sequence()
     {
-     Boundary("Kapuiviit /Qaiqsut Thule start");
-     Phase("Kapuiviit /Qaiqsut Thule")
+     Boundary("Kapuivik /Qaiqsut Early Inuit start");
+     Phase("Kapuivik /Qaiqsut Early Inuit")
      {
       R_Date("K-1079a", 660, 100);
       R_Date("K-504", 600, 150);
       R_Date("GSC-6861", 340, 70);
       R_Date("AA-62362", 203, 51);
      };
-     Boundary("Kapuiviit /Qaiqsut Thule end");
+     Boundary("Kapuivik /Qaiqsut Early Inuit end");
     };
    };
-   Boundary ("Thule end");
+   Boundary ("Early Inuit end");
   };
-  Difference("Overlap","Thule start","Dorset end");
+  Difference("Overlap","Early Inuit start","Later Tuniit end");
  };
 
