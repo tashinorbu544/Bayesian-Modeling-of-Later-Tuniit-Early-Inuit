@@ -191,7 +191,7 @@ Plot()
   Sequence()
   {
    After(C_Date("1000AD",1000,0));
-   Boundary ("Early Inuiut start")
+   Boundary ("Early Inuit start")
    {
     Start("Start Thule start");
     Transition("period of Thule start");
