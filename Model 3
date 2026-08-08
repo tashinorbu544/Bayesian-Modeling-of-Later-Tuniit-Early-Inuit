@@ -6,8 +6,8 @@ Plot()
   Curve("=IntCal20");
   Sequence()
   {
-   Boundary ("earlier Dorset Kaersut start");
-   Phase("Kaersut earlier Dorset ")
+   Boundary ("Qaiqsut Tuniit start");
+   Phase("Qaiqsut Tuniit")
    {
     R_Date("GrM-38674", 1686, 25)
     {
@@ -33,12 +33,12 @@ Plot()
      };
     };
    };
-   Boundary("kaersut early Dorset end");
+   Boundary("Qaiqsut Tuniit end");
   };
   Sequence()
   {
-   Boundary("late Dorset start");
-   Phase("late Dorset")
+   Boundary("later Tuniit start");
+   Phase("later Tuniit")
    {
     R_Date("GrM-19003", 965, 21)
     {
@@ -181,17 +181,17 @@ Plot()
      Outlier("General",0.05);
     };
    };
-   Boundary ("Dorset end")
+   Boundary ("Later Tuniit end")
    {
-    Start("Start Dorset end");
-    Transition("period of Dorset end");
-    End("End Dorset end");
+    Start("Start Later Tuniit end");
+    Transition("period of Later Tuniit end");
+    End("End Later Tuniit end");
    };
   };
   Sequence()
   {
    After(C_Date("1000AD",1000,0));
-   Boundary ("Thule start")
+   Boundary ("Early Inuiut start")
    {
     Start("Start Thule start");
     Transition("period of Thule start");
