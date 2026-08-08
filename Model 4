@@ -18,23 +18,23 @@ Plot()
   };
   Sequence()
   {
-   Boundary("later Tnuiit start");
-   Phase("later Tnuiit")
+   Boundary("Later Tnuiit start");
+   Phase("Later Tnuiit")
    {
     Sequence()
     {
-     Boundary("Avvajja later Tnuiit start");
-     Phase("Avvajja later Tnuiit")
+     Boundary("Avvajja Later Tnuiit start");
+     Phase("Avvajja Later Tnuiit")
      {
       R_Date("GrM-19003", 965, 21);
       R_Date("GrM-19002", 955, 21);
      };
-     Boundary("Avvajja later Tnuiit end");
+     Boundary("Avvajja Later Tnuiit end");
     };
     Sequence()
     {
-     Boundary("Alarniq later Tnuiit start");
-     Phase("Alarniq later Tnuiit")
+     Boundary("Alarniq Later Tnuiit start");
+     Phase("Alarniq Later Tnuiit")
      {
       R_Date("UCIAMS-196092", 1035, 20);
       R_Date("UCIAMS-251110", 945, 15);
@@ -51,12 +51,12 @@ Plot()
       R_Date("UCIAMS-251117", 945, 15);
       R_Date("UCIAMS-251116", 700, 15);
      };
-     Boundary("Alarniq later Tnuiit end");
+     Boundary("Alarniq Later Tnuiit end");
     };
     Sequence()
     {
-     Boundary("Pingiqqalik later Tnuiit start");
-     Phase("Pingiqqalik later Tnuiit")
+     Boundary("Pingiqqalik Later Tnuiit start");
+     Phase("Pingiqqalik Later Tnuiit")
      {
       Combine("UCIAMS-129057&UCIAMS-129064")
       {
@@ -67,12 +67,12 @@ Plot()
       R_Date("UCIAMS-129051", 930, 15);
       R_Date("UCIAMS-53039", 930, 15);
      };
-     Boundary("Pingiqqalik later Tnuiit end");
+     Boundary("Pingiqqalik Later Tnuiit end");
     };
     Sequence()
     {
-     Boundary("Needle Point later Tnuiit start");
-     Phase("Needle Point later Tnuiit")
+     Boundary("Needle Point Later Tnuiit start");
+     Phase("Needle Point Later Tnuiit")
      {
       R_Date("UCIAMS-47686",1520,15);
       R_Date("UCIAMS-44009", 1275, 20);
@@ -89,14 +89,14 @@ Plot()
       R_Date("UCIAMS-42217", 575, 15);
       R_Date("UCIAMS-42216", 605, 15);
      };
-     Boundary("Needle Point later Tnuiit end");
+     Boundary("Needle Point Later Tnuiit end");
     };
    };
-   Boundary ("later Tnuiit end")
+   Boundary ("Later Tnuiit end")
    {
-    Start("Start later Tnuiit end");
-    Transition("period of later Tnuiit end");
-    End("End later Tnuiit end");
+    Start("Start Later Tnuiit end");
+    Transition("period of Later Tnuiit end");
+    End("End Later Tnuiit end");
    };
    After(C_Date("1000AD",1000,0));
    Boundary ("Early Inuit start")
