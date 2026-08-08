@@ -193,11 +193,11 @@ Plot()
    After(C_Date("1000AD",1000,0));
    Boundary ("Early Inuit start")
    {
-    Start("Start Thule start");
-    Transition("period of Thule start");
-    End("End Thule start");
+    Start("Start Early Inuit start");
+    Transition("period of Early Inuit start");
+    End("End Early Inuit start");
    };
-   Phase("Thule")
+   Phase("Early Inuit")
    {
     Sequence()
     {
@@ -331,7 +331,7 @@ Plot()
      Outlier("General",0.05);
     };
    };
-   Boundary ("Thule end");
+   Boundary ("Early Inuit end");
   };
-  Difference("Overlap","Thule start","Dorset end");
+  Difference("Overlap","Early Inuit start","Later Tuniit end");
  };
