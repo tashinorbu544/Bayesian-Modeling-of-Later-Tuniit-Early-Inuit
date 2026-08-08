@@ -41,13 +41,13 @@ Plot()
   };
   Sequence()
   {
-   Boundary("later Tuniit start");
-   Phase("later Tuniit")
+   Boundary("Later Tuniit start");
+   Phase("Later Tuniit")
    {
     Sequence()
     {
-     Boundary("Avvajja later Tuniit start");
-     Phase("Avvajja later Tuniit")
+     Boundary("Avvajja Later Tuniit start");
+     Phase("Avvajja Later Tuniit")
      {
       R_Date("GrM-19003", 965, 21)
       {
@@ -68,12 +68,12 @@ Plot()
       };
       Curve("=IntCal20");
      };
-     Boundary("Avvajja later Tuniit end");
+     Boundary("Avvajja Later Tuniit end");
     };
     Sequence()
     {
-     Boundary("Alarniq later Tuniit start");
-     Phase("Alarniq later Tuniit")
+     Boundary("Alarniq Later Tuniit start");
+     Phase("Alarniq Later Tuniit")
      {
       R_Date("UCIAMS-196092", 1035, 20)
       {
@@ -157,12 +157,12 @@ Plot()
       //6.5
       Curve("=IntCal20");
      };
-     Boundary("Alarniq later Tuniit end");
+     Boundary("Alarniq Later Tuniit end");
     };
     Sequence()
     {
-     Boundary("Pingiqqalik later Tuniit start");
-     Phase("Pingiqqalik later Tuniit")
+     Boundary("Pingiqqalik Later Tuniit start");
+     Phase("Pingiqqalik Later Tuniit")
      {
       Combine("UCIAMS-129057&UCIAMS-129064")
       {
@@ -184,12 +184,12 @@ Plot()
        Outlier("General",0.05);
       };
      };
-     Boundary("Pingiqqalik Dorset end");
+     Boundary("Pingiqqalik Later Tuniit end");
     };
     Sequence()
     {
-     Boundary("Needle Point Dorset start");
-     Phase("Needle Point Dorset")
+     Boundary("Needle Point Later Tuniit start");
+     Phase("Needle Point Later Tuniit")
      {
       R_Date("UCIAMS-47686",1520,15)
       {
@@ -248,14 +248,14 @@ Plot()
        Outlier("General",0.05);
       };
      };
-     Boundary("Needle Point later Tuniit end");
+     Boundary("Needle Point Later Tuniit end");
     };
    };
-   Boundary ("later Tuniit end")
+   Boundary ("Later Tuniit end")
    {
-    Start("Start later Tuniit end");
-    Transition("period of later Tuniit end");
-    End("End later Tuniit end");
+    Start("Start Later Tuniit end");
+    Transition("period of Later Tuniit end");
+    End("End Later Tuniit end");
    };
   };
   Sequence()
