@@ -37,8 +37,8 @@ Plot()
   };
   Sequence()
   {
-   Boundary("later Tuniit start");
-   Phase("later Tuniit")
+   Boundary("Later Tuniit start");
+   Phase("Later Tuniit")
    {
     R_Date("GrM-19003", 965, 21)
     {
