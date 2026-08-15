@@ -386,8 +386,8 @@ Plot()
     };
     Sequence()
     {
-     Boundary("Kapuivik /Qaiqsut Early Inuit start");
-     Phase("Kapuivik /Qaiqsut Early Inuit")
+     Boundary("Kapuivik/Qaiqsut Early Inuit start");
+     Phase("Kapuivik/Qaiqsut Early Inuit")
      {
       R_Date("K-1079a", 660, 100)
       {
@@ -406,9 +406,9 @@ Plot()
        Outlier("General",0.05);
       };
       Interval("Interval Kapuivik /Qaiqsut Early Inuit");
-      Span("Span Kapuivik /Qaiqsut Early Inuit");
+      Span("Span Kapuivik/Qaiqsut Early Inuit");
      };
-     Boundary("Kapuiviit /Qaiqsut Early Inuit end");
+     Boundary("Kapuivik/Qaiqsut Early Inuit end");
     };
    };
    Boundary ("Early Inuit end");
