@@ -5,7 +5,7 @@ Plot()
   Curve("IntCal20","intcal20.14c");
   Sequence()
   {
-   Boundary ("Qaiqsut Tuniit start");
+   Boundary("Qaiqsut Tuniit start");
    Phase("Qaiqsut Tuniit")
    {
     R_Date("GrM-38674", 1686, 25)
@@ -22,11 +22,11 @@ Plot()
     };
     Combine("GrM-38686&GrM-38672")
     {
-     R_Date("GrM-38686",1635,40)
+     R_Date("GrM-38686", 1635, 40)
      {
       Outlier("General",0.05);
      };
-     R_Date("GrM-38672",1589,15)
+     R_Date("GrM-38672", 1589, 15)
      {
       Outlier("General",0.05);
      };
@@ -213,7 +213,7 @@ Plot()
   };
   Sequence()
   {
-   After(C_Date("1000AD",1000,0));
+   After(C_Date("1000AD", 1000, 0));
    Boundary ("Early Inuit start")
    {
     Start("Start Early Inuit start");
