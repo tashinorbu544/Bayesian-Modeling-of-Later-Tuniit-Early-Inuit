@@ -3,10 +3,9 @@
   Outlier_Model("General",T(5),U(0,4),"t");
   Outlier_Model("Wood Charcoal",Exp(1,-10,0),U(0,3),"t");
   Curve("IntCal20","intcal20.14c");
-  Curve("=IntCal20");
   Sequence()
   {
-   Boundary ("Qaiqsut Tuniit start");
+   Boundary("Qaiqsut Tuniit start");
    Phase("Qaiqsut Tuniit")
    {
     R_Date("GrM-38674", 1686, 25)
@@ -23,11 +22,11 @@
     };
     Combine("GrM-38686&GrM-38672")
     {
-     R_Date("GrM-38686",1635,40)
+     R_Date("GrM-38686", 1635, 40)
      {
       Outlier("General",0.05);
      };
-     R_Date("GrM-38672",1589,15)
+     R_Date("GrM-38672", 1589, 15)
      {
       Outlier("General",0.05);
      };
@@ -59,7 +58,7 @@
     Sequence()
     {
      Boundary("Alarniq Later Tuniit start");
-     Phase("Alarniq Later Tunii")
+     Phase("Alarniq Later Tuniit")
      {
       R_Date("UCIAMS-196092", 1035, 20)
       {
@@ -123,7 +122,7 @@
     Sequence()
     {
      Boundary("Pingiqqalik Later Tuniit start");
-     Phase("Pingiqqalik Later Tuniit)
+     Phase("Pingiqqalik Later Tuniit")
      {
       Combine("UCIAMS-129057&UCIAMS-129064")
       {
@@ -152,7 +151,7 @@
      Boundary("Needle Point Later Tuniit start");
      Phase("Needle Point Later Tuniit")
      {
-      R_Date("UCIAMS-47686",1520,15)
+      R_Date("UCIAMS-47686", 1520, 15)
       {
        Outlier("General",0.05);
       };
@@ -212,12 +211,12 @@
      Boundary("Needle Point Later Tuniit end");
     };
    };
-   Boundary ("Later Tuniit end");
+   Boundary("Later Tuniit end");
   };
   Sequence()
   {
-   After(C_Date("1000AD",1000,0));
-   Boundary ("Early Inuit start");
+   After(C_Date("1000AD", 1000, 0));
+   Boundary("Early Inuit start");
    Phase("Early Inuit")
    {
     Sequence()
@@ -342,7 +341,7 @@
     Sequence()
     {
      Boundary("Alarniq Early Inuit start");
-     Phase("Alarniq Thule")
+     Phase("Alarniq Early Inuit")
      {
       R_Date("UCIAMS-53035", 260, 15)
       {
@@ -384,7 +383,7 @@
      Boundary("Kapuivik/Qaiqsut Early Inuit end");
     };
    };
-   Boundary ("Early Inuit end");
+   Boundary("Early Inuit end");
   };
   Difference("Overlap","Early Inuit start","Later Tuniit end");
  };
