@@ -1,4 +1,3 @@
-Model 2
 Plot()
  {
   Outlier_Model("General",T(5),U(0,4),"t");
@@ -10,7 +9,7 @@ Plot()
   Curve("=IntCal20");
   Sequence()
   {
-   Boundary ("Qaiqsut Tuniit start");
+   Boundary("Qaiqsut Tuniit start");
    Phase("Qaiqsut Tuniit")
    {
     R_Date("GrM-38674", 1686, 25)
@@ -27,11 +26,11 @@ Plot()
     };
     Combine("GrM-38686&GrM-38672")
     {
-     R_Date("GrM-38686",1635,40)
+     R_Date("GrM-38686", 1635, 40)
      {
       Outlier("General",0.05);
      };
-     R_Date("GrM-38672",1589,15)
+     R_Date("GrM-38672", 1589, 15)
      {
       Outlier("General",0.05);
      };
@@ -79,67 +78,54 @@ Plot()
       {
        Outlier("General",0.05);
       };
-      //24
       R_Date("UCIAMS-251110", 945, 15)
       {
        Outlier("General",0.05);
       };
-      //14.6
       R_Date("UCIAMS-53033", 905, 15)
       {
        Outlier("General",0.05);
       };
-      //14.5
       R_Date("UCIAMS-251113", 915, 20)
       {
        Outlier("General",0.05);
       };
-      //14.4
       R_Date("UCIAMS-196087", 1005, 20)
       {
        Outlier("General",0.05);
       };
-      //14
       R_Date("UCIAMS-267487", 955, 20)
       {
        Outlier("General",0.05);
       };
-      //13
       R_Date("UCIAMS-185084", 940, 15)
       {
        Outlier("General",0.05);
       };
-      //12.5
       R_Date("UCIAMS-189002", 1085, 15)
       {
        Outlier("General",0.05);
       };
-      //12
       R_Date("UCIAMS-189004", 1085, 15)
       {
        Outlier("General",0.05);
       };
-      //12
       R_Date("UCIAMS-53032", 950, 15)
       {
        Outlier("General",0.05);
       };
-      //12
       R_Date("UCIAMS-196090", 1000, 20)
       {
        Outlier("General",0.05);
       };
-      //9.5
       R_Date("UCIAMS-196091", 965, 15)
       {
        Outlier("General",0.05);
       };
-      //9.5
       R_Date("UCIAMS-251117", 945, 15)
       {
        Outlier("General",0.05);
       };
-      //9.5
       R_Date("UCIAMS-251116", 700, 15)
       {
        Outlier("General",0.05);
@@ -149,12 +135,10 @@ Plot()
       {
        Outlier("General",0.05);
       };
-      //11
       R_Date("K-1045", 1330, 100)
       {
        Outlier("General",0.05);
       };
-      //6.5
       Curve("=IntCal20");
      };
      Boundary("Alarniq Later Tuniit end");
@@ -191,7 +175,7 @@ Plot()
      Boundary("Needle Point Later Tuniit start");
      Phase("Needle Point Later Tuniit")
      {
-      R_Date("UCIAMS-47686",1520,15)
+      R_Date("UCIAMS-47686", 1520, 15)
       {
        Outlier("General",0.05);
       };
@@ -251,7 +235,7 @@ Plot()
      Boundary("Needle Point Later Tuniit end");
     };
    };
-   Boundary ("Later Tuniit end")
+   Boundary("Later Tuniit end")
    {
     Start("Start Later Tuniit end");
     Transition("period of Later Tuniit end");
@@ -260,8 +244,8 @@ Plot()
   };
   Sequence()
   {
-   After(C_Date("1000AD",1000,0));
-   Boundary ("Early Inuit start")
+   After(C_Date("1000AD", 1000, 0));
+   Boundary("Early Inuit start")
    {
     Start("Start Early Inuit start");
     Transition("period of Early Inuit start");
@@ -462,7 +446,7 @@ Plot()
      Boundary("Iglurjuat Early Inuit end");
     };
    };
-   Boundary ("Early Inuit end");
+   Boundary("Early Inuit end");
   };
   Difference("Overlap","Early Inuit start","Later Tuniit end");
  };
