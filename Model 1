@@ -55,7 +55,7 @@ Plot()
        Outlier("General",0.05);
       };
       Interval("Interval Avvajja Later Tuniit");
-      Span("Span QAvvajja Later Tuniit");
+      Span("Span Avvajja Later Tuniit");
      };
      Boundary("Avvajja Later Tuniit end");
     };
