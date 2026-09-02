@@ -5,7 +5,7 @@ Plot()
   Curve("IntCal20","intcal20.14c");
   Sequence()
   {
-   Boundary ("Qaiqsut Tuniit start");
+   Boundary("Qaiqsut Tuniit start");
    Phase("Qaiqsut Tuniit")
    {
     R_Date("GrM-38674", 1686, 25)
@@ -159,7 +159,7 @@ Plot()
      Boundary("Needle Point Later Tuniit start");
      Phase("Needle Point Later Tuniit")
      {
-      R_Date("UCIAMS-47686",1520,15)
+      R_Date("UCIAMS-47686", 1520,15)
       {
        Outlier("General",0.05);
       };
@@ -230,7 +230,7 @@ Plot()
   };
   Sequence()
   {
-   After(C_Date("1000AD",1000,0));
+   After(C_Date("1000AD", 1000, 0));
    Boundary ("Early Inuit start")
    {
     Start("Start Early Inuit start");
@@ -365,7 +365,7 @@ Plot()
     Sequence()
     {
      Boundary("Alarniq Early Inuit start");
-     Phase("Alarniq Thule")
+     Phase("Alarniq Early Inuit")
      {
       R_Date("UCIAMS-53035", 260, 15)
       {
@@ -405,7 +405,7 @@ Plot()
       {
        Outlier("General",0.05);
       };
-      Interval("Interval Kapuivik /Qaiqsut Early Inuit");
+      Interval("Interval Kapuivik/Qaiqsut Early Inuit");
       Span("Span Kapuivik/Qaiqsut Early Inuit");
      };
      Boundary("Kapuivik/Qaiqsut Early Inuit end");
