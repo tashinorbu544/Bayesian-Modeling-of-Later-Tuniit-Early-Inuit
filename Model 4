@@ -2,7 +2,7 @@ Plot()
  {
   Sequence()
   {
-   Boundary ("Qaiqsut Tnuiit start");
+   Boundary("Qaiqsut Tnuiit start");
    Phase("Qaiqsut Tnuiit")
    {
     R_Date("GrM-38674", 1686, 25);
@@ -10,8 +10,8 @@ Plot()
     R_Date("GrM-38671", 1627, 24);
     Combine("GrM-38686&GrM-38672")
     {
-     R_Date("GrM-38686",1635,40);
-     R_Date("GrM-38672",1589,15);
+     R_Date("GrM-38686", 1635, 40);
+     R_Date("GrM-38672", 1589, 15);
     };
    };
    Boundary("Qaiqsut Tnuiit end");
@@ -60,7 +60,6 @@ Plot()
      {
       Combine("UCIAMS-129057&UCIAMS-129064")
       {
-       Span("Duration Qaiqsut earlier Dorset");
        R_Date("UCIAMS-129057", 940, 15);
        R_Date("UCIAMS-129064", 915, 20);
       };
@@ -74,7 +73,7 @@ Plot()
      Boundary("Needle Point Later Tnuiit start");
      Phase("Needle Point Later Tnuiit")
      {
-      R_Date("UCIAMS-47686",1520,15);
+      R_Date("UCIAMS-47686", 1520, 15);
       R_Date("UCIAMS-44009", 1275, 20);
       R_Date("UCIAMS-47685", 1225, 15);
       R_Date("UCIAMS-48009", 960, 20);
@@ -92,14 +91,14 @@ Plot()
      Boundary("Needle Point Later Tnuiit end");
     };
    };
-   Boundary ("Later Tnuiit end")
+   Boundary("Later Tnuiit end")
    {
     Start("Start Later Tnuiit end");
     Transition("period of Later Tnuiit end");
     End("End Later Tnuiit end");
    };
-   After(C_Date("1000AD",1000,0));
-   Boundary ("Early Inuit start")
+   After(C_Date("1000AD", 1000, 0));
+   Boundary("Early Inuit start")
    {
     Start("Start Early Inuit start");
     Transition("period of Early Inuit start");
@@ -184,7 +183,7 @@ Plot()
      Boundary("Kapuivik/Qaiqsut Early Inuit end");
     };
    };
-   Boundary ("Early Inuit end");
+   Boundary("Early Inuit end");
   };
-  Difference("Overlap","Early Inuit start","Later Tuniit end");
+  Difference("Overlap", "Early Inuit start", "Later Tuniit end");
  };
