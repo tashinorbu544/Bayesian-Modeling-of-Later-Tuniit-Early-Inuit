@@ -9,7 +9,7 @@ Plot()
   Curve("=IntCal20");
   Sequence()
   {
-   Boundary ("Qaiqsut Tuniit start");
+   Boundary("Qaiqsut Tuniit start");
    Phase("Qaiqsut Tuniit")
    {
     R_Date("GrM-38674", 1686, 25)
@@ -26,11 +26,11 @@ Plot()
     };
     Combine("GrM-38686&GrM-38672")
     {
-     R_Date("GrM-38686",1635,40)
+     R_Date("GrM-38686", 1635, 40)
      {
       Outlier("General",0.05);
      };
-     R_Date("GrM-38672",1589,15)
+     R_Date("GrM-38672", 1589, 15)
      {
       Outlier("General",0.05);
      };
@@ -146,7 +146,7 @@ Plot()
     {
      Outlier("General",0.05);
     };
-    R_Date("UCIAMS-47686",1520,15)
+    R_Date("UCIAMS-47686", 1520, 15)
     {
      Outlier("General",0.05);
     };
@@ -203,7 +203,7 @@ Plot()
      Outlier("General",0.05);
     };
    };
-   Boundary ("Later Tuniit end")
+   Boundary("Later Tuniit end")
    {
     Start("Start Later Tuniit end");
     Transition("period of Later Tuniit end");
@@ -212,8 +212,8 @@ Plot()
   };
   Sequence()
   {
-   After(C_Date("1000AD",1000,0));
-   Boundary ("Early Inuit start")
+   After(C_Date("1000AD", 1000, 0));
+   Boundary("Early Inuit start")
    {
     Start("Start Early Inuit start");
     Transition("period of Early Inuit start");
@@ -374,7 +374,7 @@ Plot()
      Outlier("General",0.05);
     };
    };
-   Boundary ("Early Inuit end");
+   Boundary("Early Inuit end");
   };
   Difference("Overlap","Early Inuit start","Later Tuniit end");
  };
