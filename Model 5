@@ -132,7 +132,7 @@ Plot()
       };
       R_Date("GrM-24991", 271, 21);
      };
-     Boundary("Uglit Thule end");
+     Boundary("Uglit Early Inuit end");
     };
     Sequence()
     {
